@@ -6,7 +6,8 @@
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
-    "tailwindcss": "^1.0"
+    "tailwindcss": "^1.0",
+    "tailwind-css-variables": "^2.0.3"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",

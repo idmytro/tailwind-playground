@@ -1,6 +1,9 @@
 /* @tailwind base; */
 
-/* @tailwind components; */
+:root {
+  --colors: red;
+  --color-red: red
+}
 
 .text-red {
   color: red
