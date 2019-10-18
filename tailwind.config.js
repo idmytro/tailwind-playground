@@ -1,5 +1,6 @@
 module.exports = {
   corePlugins: {
+    height: false,
 		opacity: false,
 		container: false,
 		accessibility: false,
