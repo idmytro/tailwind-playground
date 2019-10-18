@@ -1,6 +1,8 @@
 module.exports = {
   corePlugins: {
     height: false,
+    maxHeight: false,
+    minHeight: false,
 		opacity: false,
 		container: false,
 		accessibility: false,
