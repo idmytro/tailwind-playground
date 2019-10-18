@@ -1,88 +1,18 @@
-const corePluginsNames = [
-  'preflight',
-  'container',
-  'accessibility',
-  'appearance',
-  'backgroundAttachment',
-  'backgroundColor',
-  'backgroundPosition',
-  'backgroundRepeat',
-  'backgroundSize',
-  'borderCollapse',
-  'borderColor',
-  'borderRadius',
-  'borderStyle',
-  'borderWidth',
-  'cursor',
-  'display',
-  'flexDirection',
-  'flexWrap',
-  'alignItems',
-  'alignSelf',
-  'justifyContent',
-  'alignContent',
-  'flex',
-  'flexGrow',
-  'flexShrink',
-  'order',
-  'float',
-  'fontFamily',
-  'fontWeight',
-  'height',
-  'lineHeight',
-  'listStylePosition',
-  'listStyleType',
-  'margin',
-  'maxHeight',
-  'maxWidth',
-  'minHeight',
-  'minWidth',
-  'objectFit',
-  'objectPosition',
-  'opacity',
-  'outline',
-  'overflow',
-  'padding',
-  'placeholderColor',
-  'pointerEvents',
-  'position',
-  'inset',
-  'resize',
-  'boxShadow',
-  'fill',
-  'stroke',
-  'tableLayout',
-  'textAlign',
-  'textColor',
-  'fontSize',
-  'fontStyle',
-  'textTransform',
-  'textDecoration',
-  'fontSmoothing',
-  'letterSpacing',
-  'userSelect',
-  'verticalAlign',
-  'visibility',
-  'whitespace',
-  'wordBreak',
-  'width',
-  'zIndex'
-];
-
-const disabledCorePlugins = corePluginsNames.reduce((o, v) => ({ ...o, [v]: false }), {});
-
+/* https://github.com/tailwindcss/tailwindcss/blob/master/src/corePlugins.js */
 
 module.exports = {
-  // corePlugins: {
-  //   ...disabledCorePlugins,
-  //   color: true
-  // },
-
   corePlugins: [
+    'textColor'
   ],
   theme: {
+    screens: [],
+    colors: {
+      red: 'red'
+    },
     extend: {},
   },
-  variants: {},
+  variants: {
+    textColor: []
+  },
   plugins: [],
 }
